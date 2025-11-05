@@ -1,0 +1,111 @@
+.OqSomos {
+  width: 100%;
+  min-height: 650px;
+  background-color: #07480a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.OqSomos div {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap; /* permite quebrar linha quando a tela for pequena */
+}
+
+#imagemQS {
+  flex: 1 1 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#imagemQS img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#descricaoQS {
+  flex: 1 1 500px;
+  color: white;
+}
+
+#descricaoQS h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#descricaoQS p {
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+
+#button3 {
+  padding: 12px 40px;
+  border: 2px solid #fff;
+  background-color: #fff;
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#button3:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+/* 📱 Responsividade */
+@media (max-width: 992px) {
+  .OqSomos div {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  #descricaoQS h1 {
+    font-size: 1.8rem;
+  }
+
+  #descricaoQS p {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .OqSomos {
+    padding: 40px 15px;
+  }
+
+  #imagemQS img {
+    max-width: 90%;
+  }
+
+  #descricaoQS h1 {
+    font-size: 1.5rem;
+  }
+
+  #descricaoQS p {
+    font-size: 0.95rem;
+  }
+
+  #button3 {
+    width: 80%;
+    max-width: 250px;
+  }
+}

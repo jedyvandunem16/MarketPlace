@@ -1,0 +1,77 @@
+.home{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url(../../assets/imagens/mulher-campo-segurando-folhas-de-planta.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.home div{
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-right: 120px;
+}
+.home div h1{
+    font-size: 40px;
+    color: #0dc913;
+  
+}
+.home div h3{
+    color: white;
+   
+}
+.home div span{
+    color: white;
+}
+.home div p{
+    color: aliceblue;
+   
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+section .button1{
+  padding: 15px 60px ;
+  border-width: 0.8px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+
+  font-size: 20px;
+  border-radius: 10px;
+   border-width: 1px;
+   border-color: white;
+
+ 
+}
+section .button1:hover{
+    background-color: rgba(255, 255, 255, 0.212);
+    color: white;
+   
+}
+section .button2:hover{
+    background-color: rgba(255, 255, 255, 0.212);
+    color: #ffffff;
+}
+section .button2{
+  padding: 15px 60px ;
+  border-width: 0.8px;
+  background-color:#07480a;
+  position: relative;
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #07480a;
+ 
+}
+
