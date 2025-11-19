@@ -1,0 +1,155 @@
+.carrinho-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.carrinho-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #07480a;
+  font-size: 2rem;
+}
+
+.carrinho-itens {
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+  padding: 20px 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.item-detalhes {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.item-detalhes h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.item-detalhes .preco {
+  color: #07480a;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+
+.quantidade {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantidade button {
+  background-color: #07480a;
+  color: #fff;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.remover {
+  background-color: transparent;
+  border: none;
+  color: #ff4c4c;
+  cursor: pointer;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.remover:hover {
+  color: #d22;
+}
+
+
+.carrinho-resumo {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.carrinho-resumo p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.botoes {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.botoes button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+
+.continuar {
+  background-color: #eee;
+  color: #333;
+}
+
+.continuar:hover {
+  background-color: #ddd;
+}
+
+
+.finalizar {
+  background-color: #07480a;
+  color: #fff;
+}
+
+.finalizar:hover {
+  background-color: #056d0c;
+}
+
+
+@media (max-width: 700px) {
+  .item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .botoes {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .botoes button {
+    width: 100%;
+  }
+
+}

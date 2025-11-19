@@ -4,7 +4,7 @@ import QemSomos from "../../assets/imagens/Quem Somos.jpg";
 
 function SobreNos(){
     return (
-      <div class="OqSomos">
+      <div className="OqSomos" >
         <div>
              <section id="descricaoQS">
                 <h1>Quem Somos </h1>
@@ -13,7 +13,6 @@ function SobreNos(){
 
                     Mais do que um marketplace, somos uma ponte entre o produtor e o mercado, aproximando quem planta, quem vende e quem compra.
                     Nosso objetivo é valorizar o trabalho agrícola, estimular a economia local e contribuir para um futuro mais verde e conectado.</p>
-                <button type="submit" id="button3"> Saber Mais</button>
 
             </section>  
             <section id="imagemQS">

@@ -1,4 +1,4 @@
-.cadastro-container1 {
+.cadastro-container {
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -28,7 +28,7 @@
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
-.formulario1 input {
+.formulario input {
   width: 100%;
   padding: 10px;
   margin-top: 5px;
@@ -37,7 +37,7 @@
   border: 1px solid #ccc;
 }
 
-#btnLogin {
+#btnCadastrar {
   background-color: #07480a;
   color: white;
   padding: 10px 10px;
@@ -47,7 +47,10 @@
   transition: 0.3s;
 }
 
-#btnLogin:hover {
+#btnCadastrar:hover {
   background-color: #07480a;
 }
 
+a{
+  color: #000000;
+}

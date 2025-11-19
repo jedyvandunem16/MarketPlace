@@ -1,25 +1,26 @@
 import  "./Login.css";
+import bgImage from "../../assets/imagens/mulherflorista.jpg";
 function Login (){
     return(
-         <div class="mae">
-        <div class="principal">
-            <form>
+         <div className="cadastro-container1">
+            <div className="bg-image" style={{ backgroundImage: `url(${bgImage})` }}></div>
+            <div className="form-wrapper">
+                <form>
                 <h2>Login</h2>
-                <div class="formulario">
-                    <label for="nome">Nome</label>
-                    <input type="text" id="nome" placeholder="Digite o seu Nome"></input>
+                <div className="formulario1">
+                    <label htmlFor="email">Email</label>
+                    <input type="email" id="email" placeholder="Digite o seu email" />
                 </div>
-                <div class="formulario">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Digite o seu Email"></input>
+                <div className="formulario1">
+                    <label htmlFor="senha">Senha</label>
+                    <input type="password" id="senha" placeholder="Digite a sua senha" />
                 </div>
-                <div class="formulario">
-                    <label for="senha">Password</label>
-                    <input type="password" id="senha" placeholder="Digite a sua senha"></input>
-                </div>
-                <button type="button" id="login">Entrar</button>
-            </form>
-        </div>
-    </div>
+                <button type="button" id="btnLogin">Entrar</button>
+                 <p>Não possui uma conta? <a href="./index">Cadastra-se</a></p>
+                
+                </form>
+            </div>
+            </div>
     )
 }
+export default Login;

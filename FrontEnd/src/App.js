@@ -6,7 +6,7 @@ function App(){
     <div>
       <Routs/>
     </div>
-  )
+  ) 
 }
 
 export default App;

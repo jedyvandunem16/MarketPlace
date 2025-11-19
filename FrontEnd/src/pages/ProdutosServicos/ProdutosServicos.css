@@ -1,20 +1,20 @@
-.cards{
+.cardes {
     width: 100%;
-    padding: 50px 0%;
+    padding: 50px 0px;
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap:wrap ;
     justify-content: center;
     align-items: center;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.637)),  url(../../assets/imagens/close-up-da-caixa-com-vegetais-maduros.jpg) ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.637)),  url(../../assets/imagens/weprod.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
    
 }
 
-.cards div{
-     width: 90%;
+.cardes div{
+     width: 100%;
     padding: 20px 5%;
     display: flex;
     flex-wrap: wrap;
@@ -22,13 +22,13 @@
     align-items: center;
    
 }
-.cards div section{
-     width: 330px;
+.cardes div section{
+    width: 330px;
     height: 350px; 
     margin: 20px;
     background-color: #07480ad5;
 }
-.cards div section img{
+.cardes div section img{
      width: 70px;
      height: 70px;
      position: relative;
@@ -36,13 +36,13 @@
      left: 130px;
      color: white;
 }
-.cards div section h3{
-    margin-top: 50px;
+.cardes div section h3{
+    margin-top: 40px;
     text-align: center;
     color: white;
 
 }
-.cards div section p{
+.cardes div section p{
     margin-top: 25px;
     text-align: center;
     padding: 3px;
@@ -50,7 +50,7 @@
 
 }
 #button4{
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 80px;
     padding: 10px 40px ;
     border-width: 0.8px;
@@ -62,7 +62,7 @@
     border-color: #ffffff;
 }
 #button4:hover{
-      background-color: rgba(255, 254, 253, 0.277);
+    background-color: rgba(255, 254, 253, 0.277);
     color: rgb(255, 255, 255);
 }
 #titulo{
